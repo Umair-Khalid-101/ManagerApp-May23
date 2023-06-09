@@ -149,10 +149,6 @@ export default function ViewReport({ route }) {
         <View style={styles.inputbox}>
           <Text style={styles.title2}>{item?.apartment}</Text>
         </View>
-        <Text style={styles.title}>Other</Text>
-        <View style={styles.inputbox2}>
-          <Text style={styles.title2}>{item?.other}</Text>
-        </View>
         <Text style={styles.title}>Issue</Text>
         <View style={styles.inputbox2}>
           <Text style={styles.title2}>{item?.issue}</Text>
@@ -172,7 +168,7 @@ const styles = StyleSheet.create({
   },
   nav: {
     display: "flex",
-    marginTop: 5,
+    marginTop: "5%",
     // backgroundColor: "blue",
     height: 35,
     justifyContent: "center",
